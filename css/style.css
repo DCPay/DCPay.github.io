@@ -1,0 +1,184 @@
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+.container {
+	margin: 0 auto;
+	position: relative;
+}
+
+.banner {
+	background-image: url(../img/img_banner.jpg);
+	background-position: center center;
+	background-size: cover;
+	height: 400px;
+}
+
+.logo {
+	position: absolute;
+	padding: 30px 20px 20px;
+	background-color: #191d38;
+	width: 180px;
+	left: 20px;
+	top: 0;
+}
+
+.logo img {
+	width: 100%;
+}
+
+.head-title {
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 150px;
+}
+
+.head-title h1 {
+	font-size: 3.5em;
+	font-weight: 600;
+}
+
+.head-title h2 {
+	font-size: 1.3em;
+	font-weight: 300;
+}
+
+.column {
+	color: #FFFFFF;
+	font-weight: 300;
+	margin: 0 auto;
+}
+
+.bg-duckblue {
+	background-color: #191d38;
+}
+
+.bg-lightblue {
+	background-color: #212a55;
+}
+
+.col-3 {
+	padding: 46px 2%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.title {
+	font-weight: 100;
+	font-size: 24px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+.text-form {
+	font-weight: 100;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.content {
+	color: #191d38;
+}
+
+.content .text-form {
+	padding-right: 30px;
+	line-height: 30px;
+	text-align: justify;
+}
+
+.row {
+	margin: 30px 0;
+}
+
+.col-2 {
+	width: 46.5%;
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 15px
+}
+
+.col-2 img {
+	max-width: 100%;
+}
+
+.footer {
+	padding: 30px 0;
+	text-align: center;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+
+.footer-logo {
+	width: 150px;
+	margin: 0 auto;
+}
+
+.footer-logo img {
+	max-width: 100%;
+}
+
+@media(min-width:320px) {
+	.container {
+		width: 100%;
+	}
+	.col-2 {
+		width: 100%;
+	}
+	.col-2 img {
+		display: none;
+	}
+}
+
+@media(min-width:768px) {
+	.container {
+		width: 750px;
+	}
+	.col-2 {
+		width: 49%;
+	}
+	.col-2 img {
+		display: block;
+	}
+}
+
+@media(min-width:992px) {
+	.container {
+		width: 970px;
+	}
+	.column {
+		width: 970px;
+	}
+	.col-3 {
+		width: 33%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.container {
+		width: 1170px;
+	}
+	.column {
+		width: 1200px;
+	}
+}
+
+@media (min-width: 1440px) {
+	.column {
+		width: 1380px;
+	}
+}
+
+@media (min-width: 1680px) {
+	.column {
+		width: 1600px;
+	}
+}
